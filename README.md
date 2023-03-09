@@ -1,13 +1,39 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+# Exercício Toscrap - Raspagem de Dados
+Baseando-se nesta página http://books.toscrape.com/catalogue/the-grand-design_405/index.html, foi realizado a raspagem dos seguintes dados: título, preço, descrição e capa.
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+O retorno esperado é:
+```bash
+The Grand Design,13.76,THE FIRST MAJOR WORK IN NEARLY A DECADE...,http://books.toscrape.com/catalogue/../../media/cache/9b/69/9b696c2064d6ee387774b6121bb4be91.jpg
+```
+ 
+
+
+
+
+
+## Instalação
+
+Para rodar o exercício é necessário criar um ambiente virtual Python: 
+
+1 - Cria o ambiente virtual
+```bash
+$ python3 -m venv .venv
+```
+2 - Ativa o ambiente virtual
+```bash
+$ source .venv/bin/activate
+```
+3 - E instala as dependências no ambiente virtual
+```bash
+$ python3 -m pip install -r dev-requirements.txt
+```
+
+
+
+    
+## Teste
+Para executar o teste basta rodar o seguinte comando:
+```bash
+$ python3 -m pytest
+```
